@@ -1,0 +1,28 @@
+{
+  "name": "appiumassignmentxo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@wdio/appium-service": "^8.39.0",
+    "@wdio/cli": "^8.39.0",
+    "@wdio/cucumber-framework": "^8.39.0",
+    "chai": "^5.1.1",
+    "chai-as-promised": "^8.0.0",
+    "cucumber": "^6.0.7",
+    "webdriverio": "^8.39.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@nightwatch/mobile-helper": "^0.1.14",
+    "appium": "^2.10.3",
+    "appium-uiautomator2-driver": "^3.5.6",
+    "nightwatch": "^3.6.3"
+  }
+}
